@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pelacak_KesehatanFragment"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Header -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pelacak Kesehatan"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Deskripsi -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jurnal harian, grafik berat badan, pelacak aktivitas, dan pelacak kehamilan."
+                android:textSize="18sp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Pelacak Kelahiran Bayi -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prediksi Kelahiran"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/editTextBirthTracker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Masukkan tanggal awal (dd-MM-yyyy)"
+                android:inputType="date" />
+
+            <Button
+                android:id="@+id/buttonPredict"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editTextBirthTracker"
+                android:text="Prediksi" />
+
+            <TextView
+                android:id="@+id/textViewDueDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/buttonPredict"
+                android:text="Tanggal perkiraan kelahiran akan muncul di sini" />
+
+            <!-- Tambah Pengingat Penting -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tambah Pengingat Penting"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/editTextImportantReminder"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:gravity="top"
+                android:hint="Tambahkan pengingat penting"
+                android:inputType="textMultiLine"
+                android:minLines="3" />
+
+            <Button
+                android:id="@+id/buttonSaveReminder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Simpan Pengingat"
+                android:layout_marginTop="8dp"/>
+
+            <!-- Pelacak Aktivitas -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pelacak Aktivitas"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tambahkan pelacakan aktivitas di sini"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(Segera Hadir!!!)"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

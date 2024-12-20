@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "986945872207",
+    "project_id": "smart-bumil",
+    "storage_bucket": "smart-bumil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986945872207:android:babb1da9de9fc82093a53a",
+        "android_client_info": {
+          "package_name": "com.danyoktavian.smarthamil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1NKcsHQOm_U4__w_XCcOpmo0LunaBmb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

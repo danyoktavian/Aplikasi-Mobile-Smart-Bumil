@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main" type="id" />
+    <item name="edtText_username" type="id" />
+    <item name="edtText_password" type="id" />
+    <item name="btn_login" type="id" />
+    <item name="btn_register" type="id" />
+    <item name="bottomNavigationView" type="id" />
+    <item name="home" type="id" />
+    <item name="frame_layout" type="id" />
+</resources>
